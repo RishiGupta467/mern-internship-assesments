@@ -1,11 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #9887ed;
+}
 nav {
-    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #e12121;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 0 20px;
     font-family: Arial, sans-serif;
 }
 nav ol {
     list-style-type: none; 
+    width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -15,7 +27,7 @@ nav ol {
     gap: 25px; 
 }
 nav ol li {
-    color: #4b5563;
+    color: #a8c4eb;
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;

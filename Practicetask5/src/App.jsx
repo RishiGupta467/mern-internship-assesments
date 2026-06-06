@@ -1,5 +1,5 @@
-import Navbar from "./Navbar"
-import Footer from "./Footer"
+import Navbar from "./NavBar.jsx"
+import Footer from "./Footer.jsx"
 
 const App=()=>{
   return(
